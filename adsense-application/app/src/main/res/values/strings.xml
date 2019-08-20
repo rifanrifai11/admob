@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">Adsense Application Mobile</string>
+    <string name="app_name">Belajar Admob</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_admob">Admob</string>
+    <string name="title_activity_admob">Raihan Liverpool di UEFA</string>
 
     <string name="hello_world">Hello world!</string>
     <!-- -
         This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
         For more information, see https://support.google.com/admob/answer/3052638
     <!- -->
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <!--<string name="banner_ad_unit_id">ca-app-pub-9336656000959615/8853131972</string>-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-9336656000959615/3124875148</string>
+    <string name="desc">Pada Piala Super Eropa 2019 ini, Liverpool yang menjadi juara Liga Champions harus menghadapi wakil Inggris lainnya yakni Chelsea yang merupakan juara Liga Europa. Bentrok keduanya terjadi di Vodafone Park, Kamis (15/8/2019) dini hari WIB. Liverpool sendiri sempat tertinggal di babak pertama, yang kemudian berbalik unggul 2–1 di awal extra time sebelum disamakan menjadi 2–2.\n \n Liverpool akhirnya jadi juara usai menang adu penalti dengan skor 5–4. Liverpool sukses merengkuh trofi Piala Super Eropa keempatnya sekaligus yang pertama sejak 2005. Sebelumnya The Reds meraih trofi itu pada tahun 1977 dan 2001.\n\n Dengan raihan tersebut, Liverpool menempatkan diri sebagai peraih gelar UEFA Super Cup terbanyak di Inggris. Dalam rentan waktu 14 tahun sejak mereka terakhir kali meraih trofi serupa, tak ada klub Inggris yang mampu melakukannya. Manchester United kalah di final 2008 serta Chelsea di 2012 dan 2013.</string>
+    <string name="copyright">\u00A9 SMKN 7 Samarinda</string>
+    <string name="gp">Enam pebalap telah menguji sirkuit KymiRing. Bagaimana kesan mereka usai menjajal sirkuit anyar di gelaran MotoGP 2020 ini. \n\nPara pebalap dari enam pabrikan berbeda untuk pertama kalinya melahap lintasan sirkuit KymiRing, Senin (19/8/2019). \n\nKeenam riders tersebut adalah Stefan Bradl (Honda), Michele Pirro (Ducati), Sylvain Guintoli (Suzuki), Jonas Folger (Yamaha), Bradley Smith (Aprilia), dan Mika Kallio (KTM). \n\nKymiRing merupakan sirkut anyar yang akan masuk dalam kalender MotoGP 2020. Sirkuit yang terletak di Finlandia ini memiliki 18 tikungan dengan panjang lintasan 4,8 kilometer. Uji lintasan sirkuit ini sempat tertunda beberapa jam karena hujan yang mengguyur. Para pebalap akhirnya baru merasakan aspal sirkuit ini saat memasuki tengah hari dan tuntas pada pukul 18.00 waktu setempat.</string>
+
 </resources>

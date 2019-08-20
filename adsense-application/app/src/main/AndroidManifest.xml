@@ -20,7 +20,7 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-9336656000959615~7058255454" />
 
-        <activity android:name=".RewardAdMob" />
+        <activity android:name=".NativeAdMob" />
 
         <activity
             android:name=".AdmobBanner"

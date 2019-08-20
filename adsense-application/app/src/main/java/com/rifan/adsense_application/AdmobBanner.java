@@ -1,21 +1,13 @@
 package com.rifan.adsense_application;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.android.gms.ads.mediation.admob.AdMobExtras;
-
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.provider.Settings;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class AdmobBanner extends AppCompatActivity {
     // Remove the below line after defining your own ad unit ID.
@@ -25,14 +17,12 @@ public class AdmobBanner extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admob);
-
-        MobileAds.initialize(this,
-                "ca-app-pub-9336656000959615~7058255454");
+        setContentView(R.layout.banner_admob);
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("#########")
+//                Menambahkan Device Test ID dengan cara yg telah ada pada modul
+                .addTestDevice("82F617467912677B7C6DDD13094C2CE3")
                 .build();
         mAdView.loadAd(adRequest);
         mAdView.setAdListener(new AdListener() {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here for test admob adsense."
+        android:drawableBottom="@android:drawable/arrow_down_float"/>
+
+    <Button
+        android:id="@+id/btnAdmob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admob Banner"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnInterstitial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admob Interstitial"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnReward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admob Reward"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

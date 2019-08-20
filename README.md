@@ -1,2 +1,3 @@
-# google-play-store
-Share mengenai upload ke google play store
+# Example Penerapan Iklan di Android Studio
+#
+Silahkan download atau clone file ini.
